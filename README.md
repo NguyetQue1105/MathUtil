@@ -11,5 +11,6 @@ This repo contains the source code of a simple Java application uesd to demostra
 ## Connect me via
 1. [GitHub](http://github.com/NguyetQue1105)
 2. [Facebook](https://www.facebook.com/nguyet.que.587)
+3. [Email](mail: tracthanhnguyetque@gmail.com)
 
 #### © 2020 by Nguyet Que
