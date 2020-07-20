@@ -40,7 +40,7 @@ public class MathUtilTest {
         //vì hàm này cần 2 value expect và actual 
         //trong khi đó ném ra ngoại lệ không phải là actual value để so sánh
         //ta phải xài chiêu khác khi bắt ngoại lệ coi có đúng là ngoại lệ mình cần không
-        computeFactorial(-5);
+        //computeFactorial(-5);
         computeFactorial(16); //giai thua tang rat nhanh, khong choi qua 15
         //code có thể còn tiềm ẩn lỗi logic nhưng Clean and Build 
         //luôn ra file .jar nếu code không sai cú phát
