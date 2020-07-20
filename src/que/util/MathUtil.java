@@ -17,6 +17,9 @@ public class MathUtil {
     //thực ra 15! là to lắm rồi, nên ta chỉ tính gia thừa từ 15 trở lại
     public static long computeFactorial(int n){
         long result = 1;
+        if(n < 0){
+            throw new IllegalArgumentException("Invalid Input, n must be >= 0");
+        }
         for (int i = 1; i <= n; i++) {
             result *= i;
         }
