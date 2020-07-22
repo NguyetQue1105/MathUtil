@@ -33,7 +33,7 @@ public class MathUtilTest {
     
     @Test(expected = IllegalArgumentException.class) //@ nghĩa là annotation, dấu hiệu  báo cho JVM và thư viện jar liên quan biết phải làm gì
     //hàm này chứa các tình huống cà chớn, ví dụ cF(-5), cF(16)
-    public void testFaailedCase(){
+    public void testFailedCase(){
         //tao kỳ vọng mày ném ra ngoại lệ thì coi như code ngon
         //ngoại lệ không phải là 1 value để có thể so sánh được 
         //nên mình không sài hàm asertEquals() được

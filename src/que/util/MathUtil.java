@@ -20,9 +20,15 @@ public class MathUtil {
         if(n < 0 || n > 15){
             throw new IllegalArgumentException("Invalid Input, n must be >= 0");
         }
-        for (int i = 1; i <= n; i++) {
-            result *= i;
+//        for (int i = 1; i <= n; i++) {
+//            result *= i;
+//        }
+//        return result;
+        if(n == 0 || n == 1){
+            return 1;
         }
-        return result;
+        //điều kiện dùng đệ quy
+        //sống sót đến lệnh chỗ này thì n chắc chắn rơi vào 2 ... 15
+        return (n*computeFactorial(n-1)); //n * (n - 1)
     }
 }
