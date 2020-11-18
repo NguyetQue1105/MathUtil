@@ -46,7 +46,7 @@ public class MathUtilTest {
         //luôn ra file .jar nếu code không sai cú phát
         //vậy thì nguy hiểm quá đi 
         //mình phải Disable cái nút Clean and Build nếu code còn màu đỏ tức là còn error logic
-        //nhớ 2 con số: 10005 netbeans 8, 1024 Netbeans 10 trở lên khi chơi với Ant project 
+        //nhớ 2 con số: 1005 netbeans 8, 1024 Netbeans 10 trở lên khi chơi với Ant project 
     }
     
 }
