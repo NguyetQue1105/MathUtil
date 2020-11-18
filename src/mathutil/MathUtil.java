@@ -29,6 +29,8 @@ public class MathUtil {
         
         //expect exception if cF(-5)
         System.out.println("-5! = " + computeFactorial(-5));
+        
+        System.out.println("t muốn in ra màn hình");
     }
     
 }
