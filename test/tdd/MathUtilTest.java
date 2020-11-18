@@ -27,7 +27,6 @@ public class MathUtilTest {
         assertEquals(120, computeFactorial(5));
         assertEquals(720, computeFactorial(6));
         assertEquals(1, computeFactorial(0));
-        assertEquals(1, computeFactorial(1));
         assertEquals(2, computeFactorial(2));
     }
     
